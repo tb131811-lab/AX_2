@@ -87,7 +87,7 @@ st.metric(
 st.caption(f"1 {from_currency} = {rates[to_currency]:,.6f} {to_currency}")
 if updated_at:
     st.caption(f"환율 기준 시각: {updated_at}")
-
+#d
 st.divider()
 st.subheader(f"1 {from_currency} 기준 주요 통화")
 table_rows = [
